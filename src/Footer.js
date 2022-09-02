@@ -9,7 +9,7 @@ import {Table, Button, Dropdown, Menu, Space, Modal, Form, Input, Switch, form} 
 import {PlusCircleFilled, PrinterFilled, PlusOutlined, SoundFilled, UserAddOutlined, ExclamationCircleFilled , QuestionCircleFilled , CloseCircleFilled    } from "@ant-design/icons"
 import axios from "axios"
 import {useDispatch} from "react-redux"
-import {getData} from "/Users/pankaj.kumar/My_folder/onboarding_project/frontend/src/store/features/dataSlice.js"
+import {getData} from "./store/features/dataSlice.js"
 import {AiFillPlusCircle, AiFillPrinter} from "react-icons/ai"
 import {BsFillPlusCircleFill} from "react-icons/bs"
 
